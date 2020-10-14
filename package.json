@@ -1,0 +1,37 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "@vuepress/plugin-pwa": "^1.6.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-katex-external": "^1.0.0",
+    "markdown-it-table-of-contents": "^0.4.3",
+    "vuepress": "^1.6.0",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-cursor-effects": "^1.0.0",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.5.7"
+  }
+}
